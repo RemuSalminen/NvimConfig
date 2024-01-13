@@ -33,7 +33,7 @@ return {
 				config = function()
 					-- When in diff mode, we want to use the default
 					-- vim text objects c & C instead of the treesitter ones.
-					require'nvim-treesitter.install'.compilers = {'gcc-11'}
+					require"nvim-treesitter.install".compilers = {'gcc'}
 					local move = require('nvim-treesitter.textobjects.move') ---@type table<string,fun(...)>
 					local configs = require('nvim-treesitter.configs')
 					for name, fn in pairs(move) do
