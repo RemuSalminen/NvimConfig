@@ -1,13 +1,10 @@
-# Rafael Bodill's Neovim Config
+# Remu's Neovim Config
+> forked from Rafi Bodill's vim-config
 
-Lean mean Neovim machine, 30-45ms startup time. Works best with [Neovim] ≥0.9
+Lean mean Neovim machine, 30-45ms startup time. Works best with [Neovim] ≥0.10
 
 :gear: See "[Extending](#extending)" for customizing configuration and adding
 plugins.
-
-:triangular_flag_on_post: git tag [`vim`](https://github.com/rafi/vim-config/tree/vim)
-tracks the last revision using Dein.nvim and plugins.yaml. Since then, the
-entire configuration has been rewritten to use [lazy.nvim] and Lua.
 
 > I encourage you to fork this repo and create your own experience.
 > Learn how to tweak and change Neovim to the way YOU like it.
@@ -1030,7 +1027,7 @@ Note that,
 | <kbd>Space</kbd> <kbd>o</kbd> | 𝐍 | Open structure window | <small>[hedyhli/outline.nvim]</small>
 | <kbd>Space</kbd> <kbd>f</kbd> | 𝐍 | Show current structure scope in winbar | <small>[SmiteshP/nvim-navic]</small>
 | <kbd>Space</kbd> <kbd>?</kbd> | 𝐍 | Open the macOS dictionary on current word | <small>`:!open dict://`</small>
-| <kbd>Space</kbd> <kbd>P</kbd> | 𝐍 | Use Marked 2 for real-time Markdown preview | <small>[Marked 2]</small>
+| <kbd>Space</kbd> <kbd>P</kbd> | 𝐍 | Use your browser for real-time Markdown preview | <small>[iamcco/markdown-preview.nvim](https://github.com/iamcco/markdown-preview.nvim)</small>
 | <kbd>Space</kbd> <kbd>mc</kbd> | 𝐍 | Open color-picker | <small>[uga-rosa/ccc.nvim]</small>
 | <kbd>Space</kbd> <kbd>tt</kbd> | 𝐍 | Open terminal (root dir) | <small>[config/keymaps.lua]</small>
 | <kbd>Space</kbd> <kbd>tT</kbd> | 𝐍 | Open terminal (cwd) | <small>[config/keymaps.lua]</small>
@@ -1269,5 +1266,5 @@ See [chentau/marks.nvim] for more mappings and usage information.
 [plugins/lsp/keymaps.lua]: ./lua/rafi/plugins/lsp/keymaps.lua
 [lua/rafi/util/contextmenu.lua]: ./lua/rafi/util/contextmenu.lua
 [nvim-treesitter]: https://github.com/nvim-treesitter/nvim-treesitter
-[Marked 2]: https://marked2app.com
 [www.lazyvim.org/extras]: https://www.lazyvim.org/extras
+[hedyhli/outline.nvim]: https://github.com/hedyhli/outline.nvim
