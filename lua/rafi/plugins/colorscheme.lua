@@ -5,19 +5,19 @@ return {
 
 	{
 		'rafi/theme-loader.nvim',
-		lazy = false,
+		lazy = true,
 		priority = 99,
-		opts = { initial_colorscheme = 'neohybrid' },
+		opts = { initial_colorscheme = 'tokyonight' },
 	},
 
-	{ 'rafi/neo-hybrid.vim', priority = 100, lazy = false },
+	{ 'rafi/neo-hybrid.vim', lazy = false },
 	{ 'rafi/awesome-vim-colorschemes', lazy = false },
-	{ 'AlexvZyl/nordic.nvim' },
-	{ 'folke/tokyonight.nvim', opts = { style = 'night' } },
-	{ 'rebelot/kanagawa.nvim' },
-	{ 'olimorris/onedarkpro.nvim' },
-	{ 'EdenEast/nightfox.nvim' },
-	{ 'nyoom-engineering/oxocarbon.nvim' },
+	{ 'AlexvZyl/nordic.nvim', lazy = false },
+	{ 'folke/tokyonight.nvim', opts = { style = 'night' }, lazy = false, priority = 100 },
+	{ 'rebelot/kanagawa.nvim', lazy = false },
+	{ 'olimorris/onedarkpro.nvim', lazy = false },
+	{ 'EdenEast/nightfox.nvim', lazy = false },
+	{ 'nyoom-engineering/oxocarbon.nvim', lazy = false },
 
 	{
 		'ribru17/bamboo.nvim',
@@ -29,7 +29,7 @@ return {
 
 	{
 		'catppuccin/nvim',
-		lazy = true,
+		lazy = false,
 		name = 'catppuccin',
 		opts = {
 			flavour = 'macchiato', -- latte, frappe, macchiato, mocha
